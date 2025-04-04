@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IonAlert, IonButton } from '@ionic/angular';
 
 @Component({
   selector: 'app-tab1',
@@ -9,5 +10,6 @@ import { Component } from '@angular/core';
 export class Tab1Page {
 
   constructor() {}
+  alertButtons = ['Fechar'];
 
 }
