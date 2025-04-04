@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { IonAlert, IonButton } from '@ionic/angular';
 
 @Component({
   selector: 'app-tab1',
@@ -9,7 +8,7 @@ import { IonAlert, IonButton } from '@ionic/angular';
 })
 export class Tab1Page {
 
-  constructor() {}
+  // adiciona o botão "fechar" ao alerta
   alertButtons = ['Fechar'];
 
 }
