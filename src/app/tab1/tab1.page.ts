@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SenhasService } from '../services/senhas.service';
 
 @Component({
   selector: 'app-tab1',
@@ -10,5 +11,10 @@ export class Tab1Page {
 
   // adiciona o botão "fechar" ao alerta
   alertButtons = ['Fechar'];
+  inputNovaSenha: string = '';
+
+  constructor(public senhasService: SenhasService){
+    
+  }
 
 }
