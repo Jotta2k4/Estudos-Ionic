@@ -11,7 +11,6 @@ export class Tab1Page {
 
   // adiciona o botão "fechar" ao alerta
   alertButtons = ['Fechar'];
-  inputNovaSenha: string = '';
 
   constructor(public senhasService: SenhasService){
     
