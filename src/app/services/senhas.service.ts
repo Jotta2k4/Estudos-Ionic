@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class SenhaService {
+export class SenhasService {
   private sequencias: { [tipo: string]: number } = { SP: 0, SE: 0, SG: 0 };
 
   gerarSenha(tipo: 'SP' | 'SE' | 'SG'): string {

@@ -16,11 +16,12 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-painel',
-  templateUrl: './painel.component.html',
-  styleUrls: ['./painel.component.scss']
+  selector: 'app-tab3',
+  templateUrl: 'tab3.page.html',
+  styleUrls: ['tab3.page.scss'],
+  standalone: false
 })
-export class PainelComponent {
+export class Tab3Page {
   @Input() historico: string[] = [];
 }
 

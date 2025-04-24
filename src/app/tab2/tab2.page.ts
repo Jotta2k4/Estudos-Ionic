@@ -15,11 +15,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-guiche',
-  templateUrl: './guiche.component.html',
-  styleUrls: ['./guiche.component.scss']
+  selector: 'app-tab2',
+  templateUrl: 'tab2.page.html',
+  styleUrls: ['tab2.page.scss'],
+  standalone: false
 })
-export class GuicheComponent {
+export class Tab2Page {
 
   chamarProximaSenha() {
     // Simulação da chamada
