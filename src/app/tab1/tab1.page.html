@@ -17,7 +17,7 @@
   <!-- <app-explore-container name="Tab 1 page"></app-explore-container> -->
 
   <!-- adiciona um botão de alerta -->
-  <ion-button id="present-alert">Clique aqui</ion-button>
+  <!-- <ion-button id="present-alert">Clique aqui</ion-button>
   <ion-alert
     trigger="present-alert"
     header="João Pedro Carneiro da Silva"
@@ -35,7 +35,20 @@
       <ion-button expand="block" (click)="senhasService.novaSenha('SP')">Senha Prioritária</ion-button>
       <ion-button expand="block" (click)="senhasService.novaSenha('SE')">Senha Exame</ion-button>
     </ion-card-content>
-  </ion-card>
+  </ion-card> -->
+  
+
+  <div class="space-y-4">
+    <h2 class="text-lg font-semibold">Emitir Senha</h2>
+    <div class="flex gap-4">
+      <button ion-button (click)="emitirSenha('SP')">Prioritária (SP)</button>
+      <button ion-button (click)="emitirSenha('SE')">Exames (SE)</button>
+      <button ion-button (click)="emitirSenha('SG')">Geral (SG)</button>
+    </div>
+    <p *ngIf="senhaAtual" class="text-center mt-4 text-success">
+      Senha emitida: {{ senhaAtual }}
+    </p>
+  </div>
   
 
 </ion-content>

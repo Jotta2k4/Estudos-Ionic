@@ -1,14 +1,26 @@
-import { Component } from '@angular/core';
-import { SenhasService } from '../services/senhas.service';
+// import { Component } from '@angular/core';
+// import { SenhasService } from '../services/senhas.service';
+
+// @Component({
+//   selector: 'app-tab3',
+//   templateUrl: 'tab3.page.html',
+//   styleUrls: ['tab3.page.scss'],
+//   standalone: false,
+// })
+// export class Tab3Page {
+
+//   constructor(public senhasService: SenhasService) {}
+
+// }
+
+import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-tab3',
-  templateUrl: 'tab3.page.html',
-  styleUrls: ['tab3.page.scss'],
-  standalone: false,
+  selector: 'app-painel',
+  templateUrl: './painel.component.html',
+  styleUrls: ['./painel.component.scss']
 })
-export class Tab3Page {
-
-  constructor(public senhasService: SenhasService) {}
-
+export class PainelComponent {
+  @Input() historico: string[] = [];
 }
+

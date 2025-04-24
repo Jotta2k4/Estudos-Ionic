@@ -16,17 +16,27 @@
   <!-- a linha abaixo vem como padrao, nao excluí ela para deixar como exemplo -->
   <!-- <app-explore-container name="Tab 3 page"></app-explore-container> -->
 
+  <div class="space-y-4">
+    <h2 class="text-lg font-semibold">Painel de Chamadas</h2>
+    <ul class="space-y-2">
+      <li *ngFor="let senha of historico" class="text-center text-lg font-medium">
+        {{ senha }}
+      </li>
+    </ul>
+  </div>
+  
+
   <!-- adiciona um card para o totem -->
-  <ion-card class="totem">
+  <!-- <ion-card class="totem">
     <img alt="Silhouette of mountains" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs7xeXQcAet-NOrviZ5Fpfw38taZKMOqdKFg&s" />
   
     <ion-card-content class="totem-text">
       Este aplicativo foi desenvolvido como parte da avaliação para a disciplina de Desenvolvimento móvel.
     </ion-card-content>
-  </ion-card>
+  </ion-card> -->
 
   <!-- adiciona um card de lista para os alunos -->
-  <ion-card>
+  <!-- <ion-card>
     <ion-card-header>
       <ion-card-title>Contribuíram com o projeto</ion-card-title>
     </ion-card-header>
@@ -80,6 +90,8 @@
         <ion-item>Senhas Exame: {{senhasService.senhasExame}}</ion-item>
       </ion-list>
     </ion-card-content>
-  </ion-card>  
+  </ion-card>   -->
+
+
 
 </ion-content>
