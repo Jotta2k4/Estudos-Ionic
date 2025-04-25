@@ -15,7 +15,7 @@ export interface Senha {
 })
 export class FilaService {
 
-  private apiUrl = 'http://localhost:3000/api/filas'; // ajuste a URL do seu backend
+  private apiUrl = 'http://localhost:3000/senhas'; // ajuste a URL do seu backend
 
   constructor(private http: HttpClient) { }
 
