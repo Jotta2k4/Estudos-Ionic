@@ -18,3 +18,19 @@ Under the following terms:
   You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 
 No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+
+
+Creative Commons Atribuição 4.0 Internacional
+
+Esta obra está licenciada sob uma Licença Creative Commons Atribuição 4.0 Internacional.
+Para visualizar uma cópia desta licença, visite http://creativecommons.org/licenses/by/4.0/ ou envie uma carta para Creative Commons, PO Box 1866, Mountain View, CA 94042, EUA.
+
+Você é livre para:
+- Compartilhar — copiar e redistribuir o material em qualquer meio ou formato
+- Adaptar — remixar, transformar e construir sobre o material para qualquer fim, mesmo que comercialmente.
+
+Sob os seguintes termos:
+- Atribuição — Você deve dar o crédito apropriado, prover um link para a licença e indicar se mudanças foram feitas. Você pode fazê-lo de qualquer maneira razoável, mas não de uma forma que sugira que o licenciador endossa você ou seu uso.
+
+Sem restrições adicionais — Você não pode aplicar termos legais ou medidas tecnológicas que restrinjam legalmente outros de fazerem algo que a licença permite.
